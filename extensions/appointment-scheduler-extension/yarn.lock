@@ -1635,13 +1635,15 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cosmicjs@^3.0.0:
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/cosmicjs/-/cosmicjs-3.4.4.tgz#866837238f92f55b4a6409633a2f3f9676a50ca5"
-  integrity sha512-3QMZKik52H/pSHzyaABBg7NLjGgkffMq+zgJQxZiv043G0x2LXqqsMxL4u+huQZTj5vBAAKh/CIKTNunHcE7Sg==
+cosmicjs@^4.3.7:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/cosmicjs/-/cosmicjs-4.3.7.tgz#a0ced09612060b3a76f569620aa59883981bc272"
+  integrity sha512-FiSko3Pj5Y43o6hkspH5H6hCCBKDaTQd+BDGqDVZUCiIyV+L+ZfbO4lJ+IpRETyaKAoma58Op7HPr4uY7eUBLQ==
   dependencies:
     axios "^0.21.1"
     form-data "^3.0.0"
+    regenerator-runtime "^0.13.9"
+    typescript "^4.6.3"
 
 create-ecdh@^4.0.0:
   version "4.0.0"
@@ -4755,6 +4757,11 @@ regenerator-runtime@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.0.tgz#7e54fe5b5ccd5d6624ea6255c3473be090b802e1"
 
+regenerator-runtime@^0.13.9:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
+
 regenerator-transform@^0.10.0:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.10.1.tgz#1e4996837231da8b7f3cf4114d71b5691a0680dd"
@@ -5744,6 +5751,11 @@ type-is@~1.6.17, type-is@~1.6.18:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+typescript@^4.6.3:
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 ua-parser-js@^0.7.9:
   version "0.7.14"
